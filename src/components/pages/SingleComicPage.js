@@ -13,7 +13,8 @@ const SingleComicPage = () => {
     const { error, loading, getComic, clearError } = useMarvelService();
 
     useEffect(() => {
-        updateComic()
+        updateComic();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [comicId])
 
     const updateComic = () => {
