@@ -1,1 +1,1 @@
-# Marvel-app
+# Реакт приложение на основе Marvel API
